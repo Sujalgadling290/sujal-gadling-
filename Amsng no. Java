@@ -1,0 +1,21 @@
+1import java.util.Scanner;
+2class AmsngNo{
+3	public static void main(String[] args) {
+4		Scanner sc=new Scanner(System.in);
+5		System.out.print("Enter any number: ");
+6		int no=sc.nextInt();
+7		int rem,sum=0;
+8		int no1=no;
+9		do{
+10                rem=no1%10;                rem=rem*rem*rem;
+11                sum=sum+rem;
+12                 no1=no1/10;
+13		}while(no1>0);
+
+14		if (sum==no) {
+15		 	System.out.print(no+" is Amstrong Number");
+16		}else {
+17		 	System.out.print(no+" is not a Amstrong Number");
+18		}
+19	}
+20 }
