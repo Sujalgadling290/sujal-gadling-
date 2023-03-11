@@ -1,0 +1,11 @@
+1 class Test{
+2	public void show()
+3	{
+4		System.out.print("Hi");
+5	}
+6 }
+7 class Useme{
+8	public static void main(String[] args) {
+9		Test.show();
+10	}
+11}
