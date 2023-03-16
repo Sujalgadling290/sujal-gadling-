@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class MulDig{
+        public static void main(String[] args) {
+               Scanner sc=new Scanner(System.in);
+               Scanner.out.print("Enter Any Number: ");
+               int no=sc.nextInt();
+               int mul=1,rem;
+               while (no>0) {
+                      rem=no%10;
+                      mul=mul*rem;
+                vvv   no=no/10;
+               }
+         System.out.print("The multiplication is "+mul);
+        }
+}
