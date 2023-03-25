@@ -16,3 +16,16 @@ class Child extends parent{
                System.out.println("The dxivision is "+(a/b));
         }
 }
+class SingleInheritance{
+        public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Two Numbers: ");
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        child c=new Child();
+        c.add(a,b);
+        c.sub(a,b);
+        c.mul(a,b);
+        c.div(a,b);
+        }
+}
